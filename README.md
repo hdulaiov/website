@@ -2,12 +2,15 @@
 
 Built with [Quarto](https://quarto.org) using the Cosmo base theme plus a custom SCSS overlay in `styles/styles.scss`. The site generates into `docs/` for GitHub Pages.
 
+## Live Site
+https://fuleky.github.io/website/
+
 ## Content & Navigation
 
-- `index.qmd` — home/landing with portrait, book link, teaching links.
+- `index.qmd` — home/landing with portrait and contact info.
 - `bio.qmd` — short biography with maps.
 - `research.qmd` — publications, books/chapters, work in progress, grants.
-- `teaching.qmd` — course links.
+- `teaching.qmd` — course descriptions.
 - `cv.qmd` — HTML CV with PDF download link (`cv.pdf`).
 
 ## Local build
