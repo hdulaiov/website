@@ -4,6 +4,8 @@ project:
 
 website:
   title: "Peter Fuleky"
+  site-url: "https://hdulaiov.github.io/website/"
+  repo-url: "https://github.com/hdulaiov/website"
   google-analytics: "G-2H4NNSECCS"
   # favicon: file/path/to/image.png # NOTE: that the `favicon` is a `website` level option (not under `navbar`)
   navbar:
@@ -23,6 +25,9 @@ website:
         href: teaching.qmd
       - text: CV
         href: cv.qmd
+      - icon: github
+        href: https://github.com/hdulaiov
+        target: _blank
       # - href: file/path/to/myCV.pdf # providing a relative file path to a pdf will open up a browser-based pdf viewer when clicked
       #   target: _blank # opens link (or page) in a new browser tab
       # - icon: github # add icons as navbar buttons

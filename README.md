@@ -3,7 +3,7 @@
 Built with [Quarto](https://quarto.org) using the Cosmo base theme plus a custom SCSS overlay in `styles/styles.scss`. The site generates into `docs/` for GitHub Pages.
 
 ## Live Site
-https://fuleky.github.io/website/
+https://hdulaiov.github.io/website/
 
 ## Content & Navigation
 
@@ -25,4 +25,4 @@ Quarto will compile the SCSS; ensure `styles/styles.scss` remains referenced in 
 
 ## Deployment
 
-The output goes to `docs/`; publish via GitHub Pages on the `docs/` folder. A CI workflow should run `quarto render` (and `sass` if you introduce additional SCSS that must be precompiled for PDF CSS). Ensure any fonts required for PDF are locally available to the workflow.***
+The output goes to `docs/`; this fork is set up to publish via GitHub Pages from the repository’s `main` branch using the workflow in `.github/workflows/pages.yml`. If you enable Pages for your fork in GitHub, the site will be available at https://hdulaiov.github.io/website/. A CI workflow runs `quarto render` (and `sass` if you introduce additional SCSS that must be precompiled for PDF CSS). Ensure any fonts required for PDF are locally available to the workflow.***
