@@ -23,6 +23,8 @@ website:
         href: research.qmd
       - text: Teaching
         href: teaching.qmd
+      - text: Photos
+        href: photos.qmd
       - text: CV
         href: cv.qmd
       - icon: github
